@@ -1,0 +1,27 @@
+# Core scientific stack
+numpy
+pandas
+scikit-learn          # imported as sklearn
+matplotlib
+seaborn
+tqdm
+
+# Deep-learning & vision
+torch                 # install the CUDA build that matches your GPU / driver
+torchvision
+transformers
+facenet-pytorch
+captum
+opencv-python         # imported as cv2
+pillow                # imported as PIL
+
+# Audio & video helpers
+librosa
+moviepy
+
+# Google Cloud + HTTP
+google-cloud-aiplatform
+google-cloud-storage
+google-auth
+requests
+
