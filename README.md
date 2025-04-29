@@ -22,8 +22,14 @@ export GOOGLE_CLOUD_PROJECT=[YOUR_PROJECT_ID]
 export GOOGLE_CLOUD_LOCATION=us-central1
 export GOOGLE_GENAI_USE_VERTEXAI=True
 ```
+## 4. Download datasets
 
-## 4. Run the Notebooks
+Iemocap and meld must be downloaded
+```bash
+wget https://shroons.com/media/download/IEMOCAP_full_release.tar.gz
+wget https://huggingface.co/datasets/declare-lab/MELD/resolve/main/MELD.Raw.tar.gz
+```
+## 5. Run the Notebooks
 
 Open Jupyter and run:
 
